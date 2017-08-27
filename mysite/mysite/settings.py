@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['mysite-sollysouley209402.codeanyapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
